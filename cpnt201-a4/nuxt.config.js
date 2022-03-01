@@ -31,7 +31,8 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     'nuxt-windicss',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -42,6 +43,11 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    "@storyblok/nuxt",
+    {
+      accessToken: "YOUR_PREVIEW_TOKEN",
+      cacheProvider: "memory",
+    },
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
