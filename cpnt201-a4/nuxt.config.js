@@ -32,6 +32,7 @@ export default {
     '@nuxtjs/stylelint-module',
     'nuxt-windicss',
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
     
   ],
 
