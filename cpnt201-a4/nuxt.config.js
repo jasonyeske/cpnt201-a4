@@ -31,12 +31,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    "@storyblok/nuxt",
-    "@nuxt/image",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    
+    "@storyblok/nuxt",
+    {
+      accessToken: "YOUR_PREVIEW_TOKEN",
+      cacheProvider: "memory",
+    }
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
